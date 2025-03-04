@@ -30,7 +30,7 @@ spec:
           command:
             - /model-registry
             - proxy
-          image: kubeflow/model-registry:latest
+          image: m.daocloud.io/docker.io/kubeflow/model-registry:latest
           # empty placeholder environment for patching
           env: []
           ports:
@@ -60,7 +60,7 @@ spec:
           # * .cloudbuild.yaml and .release.cloudbuild.yaml
           # * manifests/kustomize/base/metadata/base/model-registry-deployment.yaml
           # * test/tag_for_hosted.sh
-          image: gcr.io/tfx-oss-public/ml_metadata_store_server:1.14.0
+          image: m.daocloud.io/gcr.io/tfx-oss-public/ml_metadata_store_server:1.14.0
           env:
           - name: DBCONFIG_USER
             valueFrom:
