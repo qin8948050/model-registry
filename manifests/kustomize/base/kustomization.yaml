@@ -7,5 +7,5 @@ resources:
 - model-registry-sa.yaml
 images:
 - name: kubeflow/model-registry
-  newName: kubeflow/model-registry
+  newName: m.daocloud.io/docker.io/kubeflow/model-registry
   newTag: v0.2.14
