@@ -47,10 +47,10 @@ spec:
         resources:
           limits:
             cpu: 500m
-            memory: 2Gi
+            memory: '0'
           requests:
             cpu: 500m
-            memory: 2Gi
+            memory: '0'
         ports:
           - containerPort: 8080
         args:
