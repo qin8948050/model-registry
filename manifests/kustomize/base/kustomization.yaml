@@ -7,5 +7,5 @@ resources:
 - model-registry-sa.yaml
 images:
 - name: ghcr.io/kubeflow/model-registry
-  newName: ghcr.io/kubeflow/model-registry
+  newName: m.daocloud.io/ghcr.io/kubeflow/model-registry
   newTag: v0.2.15
